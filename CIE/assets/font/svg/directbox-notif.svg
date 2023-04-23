@@ -1,0 +1,7 @@
+<svg id="directbox-notif" xmlns="http://www.w3.org/2000/svg" width="70.012" height="70.012" viewBox="0 0 70.012 70.012">
+  <path id="Vector" d="M11.669,0C0,0,0,5.222,0,11.669v2.917c0,8.051,0,14.586,14.586,14.586H37.923c11.669,0,14.586-6.534,14.586-14.586V11.669C52.509,5.222,52.509,0,40.84,0a6.888,6.888,0,0,0-5.251,1.75L32.614,4.9a8.747,8.747,0,0,1-12.748,0L16.92,1.75A6.888,6.888,0,0,0,11.669,0Z" transform="translate(8.751 35.006)" fill="none" stroke="#f6c656" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-2" data-name="Vector" d="M40.84,29.172v-17.5C40.84,5.222,40.84,0,29.172,0h-17.5C0,0,0,5.222,0,11.669v17.5" transform="translate(14.586 5.834)" fill="none" stroke="#f6c656" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H9.714" transform="translate(30.776 26.925)" fill="none" stroke="#f6c656" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H14.586" transform="translate(28.355 18.174)" fill="none" stroke="#f6c656" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-5" data-name="Vector" d="M0,0H70.012V70.012H0Z" fill="none" opacity="0"/>
+</svg>

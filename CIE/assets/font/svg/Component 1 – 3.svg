@@ -1,0 +1,10 @@
+<svg id="Component_1_3" data-name="Component 1 – 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="24" height="24" fill="rgba(255,255,255,0)"/>
+  <g id="vuesax_linear_sms" data-name="vuesax/linear/sms" transform="translate(-553 -247)">
+    <g id="sms" transform="translate(556 250)">
+      <path id="Vector" d="M11.249,12.749H3.75C1.5,12.749,0,11.624,0,9V3.75C0,1.125,1.5,0,3.75,0h7.5C13.5,0,15,1.125,15,3.75V9C15,11.624,13.5,12.749,11.249,12.749Z" transform="translate(1.5 2.625)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M7.5,0,5.152,1.875a2.374,2.374,0,0,1-2.812,0L0,0" transform="translate(5.25 6.75)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H18V18H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

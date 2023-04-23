@@ -1,0 +1,84 @@
+:root {
+    --white-color:#fff;
+    --primary-color: #000031;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.grid__col-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 16.6667%;
+}
+
+.grid__col-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 33.3334%;
+}
+
+.grid__col-3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 25%;
+}
+
+.grid__col-6 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 50%;
+}
+
+.grid__col-8 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 66.6667%;
+}
+
+.grid__col-10 {
+    padding-left: 16px;
+    /* padding-right: 16px; */
+    width: 83.3334%;
+}
+
+.nunito {
+    font-family: 'Nunito', 'san-serif';
+}
+
+.prata {
+    font-family: 'Prata', 'serif';
+}
+
+.bg--gray {
+    background-color: #F2F2F2;
+}

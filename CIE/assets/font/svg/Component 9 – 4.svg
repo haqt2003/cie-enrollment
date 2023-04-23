@@ -1,0 +1,33 @@
+<svg id="Component_9_4" data-name="Component 9 – 4" xmlns="http://www.w3.org/2000/svg" width="104" height="24" viewBox="0 0 104 24">
+  <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(40)">
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="24" height="24" fill="rgba(255,255,255,0)"/>
+    <g id="vuesax_bold_youtube" data-name="vuesax/bold/youtube" transform="translate(3 3)">
+      <g id="youtube">
+        <path id="BG_165" data-name="BG 165" d="M0,0H18V18H0Z" fill="none" opacity="0.58"/>
+        <path id="Vector" d="M13.5,0h-9A4.251,4.251,0,0,0,0,4.5V9.9a4.251,4.251,0,0,0,4.5,4.5h9A4.251,4.251,0,0,0,18,9.9V4.5A4.251,4.251,0,0,0,13.5,0ZM10.7,8.127,8.478,9.459c-.9.54-1.638.126-1.638-.927V5.859c0-1.053.738-1.467,1.638-.927L10.7,6.264A1,1,0,0,1,10.7,8.127Z" transform="translate(0 1.8)" fill="#fff"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H18V18H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+  <g id="Component_7_1" data-name="Component 7 – 1" transform="translate(80)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="24" height="24" fill="rgba(255,255,255,0)"/>
+    <g id="vuesax_linear_instagram" data-name="vuesax/linear/instagram" transform="translate(3 3)">
+      <g id="instagram">
+        <path id="Vector-3" data-name="Vector" d="M5.25,15h4.5C13.5,15,15,13.5,15,9.75V5.25C15,1.5,13.5,0,9.75,0H5.25C1.5,0,0,1.5,0,5.25v4.5C0,13.5,1.5,15,5.25,15Z" transform="translate(1.5 1.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H18V18H0Z" fill="none" opacity="0"/>
+        <path id="Vector-5" data-name="Vector" d="M5.25,2.625A2.625,2.625,0,1,1,2.625,0,2.625,2.625,0,0,1,5.25,2.625Z" transform="translate(6.375 6.375)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-6" data-name="Vector" d="M.636.5H.645" transform="translate(12.591 4.75)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+  <g id="Component_8_1" data-name="Component 8 – 1">
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="24" height="24" fill="rgba(255,255,255,0)"/>
+    <g id="vuesax_bold_facebook" data-name="vuesax/bold/facebook" transform="translate(3 101.841)">
+      <g id="facebook" transform="translate(0 -98.841)">
+        <path id="BG_111" data-name="BG 111" d="M0,0H18V18H0Z" fill="none" opacity="0.58"/>
+        <path id="Vector-7" data-name="Vector" d="M15,10.643A4,4,0,0,1,10.643,15H9.75A.752.752,0,0,1,9,14.25V9.923a.375.375,0,0,1,.367-.375l1.32-.022a.239.239,0,0,0,.218-.188l.263-1.433a.227.227,0,0,0-.225-.263l-1.6.022A.381.381,0,0,1,8.963,7.3L8.933,5.46a.226.226,0,0,1,.225-.225l1.8-.03a.221.221,0,0,0,.225-.225l-.03-1.8a.221.221,0,0,0-.225-.225L8.9,2.985A2.247,2.247,0,0,0,6.69,5.272l.037,2.063a.371.371,0,0,1-.367.383l-.9.015a.221.221,0,0,0-.225.225l.022,1.425a.221.221,0,0,0,.225.225l.9-.015a.381.381,0,0,1,.382.367l.067,4.275a.751.751,0,0,1-.75.765H4.358A4,4,0,0,1,0,10.635V4.357A4,4,0,0,1,4.358,0h6.285A4,4,0,0,1,15,4.357v6.285Z" transform="translate(1.5 1.5)" fill="#fff"/>
+        <path id="Vector-8" data-name="Vector" d="M0,0H18V18H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

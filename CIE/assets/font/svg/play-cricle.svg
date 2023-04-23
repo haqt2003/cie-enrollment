@@ -1,0 +1,19 @@
+<svg id="play-cricle" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="play-cricle-2" data-name="play-cricle">
+    <path id="Vector" d="M0,23.558A16.631,16.631,0,0,0,0,0" transform="translate(31.779 8.221)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-2" data-name="Vector" d="M4.89,0a16.631,16.631,0,0,0,0,23.558" transform="translate(3.331 8.221)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0A16.788,16.788,0,0,0,5.5.917,17.237,17.237,0,0,0,11.006,0" transform="translate(14.497 35.681)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-4" data-name="Vector" d="M0,.917A16.788,16.788,0,0,1,5.5,0a16.788,16.788,0,0,1,5.5.917" transform="translate(14.497 3.402)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H40V40H0Z" fill="none" opacity="0"/>
+    <g id="vuesax_bold_play-cricle" data-name="vuesax/bold/play-cricle" transform="translate(-428 -444)">
+      <g id="play-cricle-3" data-name="play-cricle" transform="translate(428 444)">
+        <path id="Vector-6" data-name="Vector" d="M0,0H40V40H0Z" fill="none" opacity="0"/>
+        <path id="Vector-7" data-name="Vector" d="M1.246,26.062A1.236,1.236,0,0,1,.362,25.7a1.257,1.257,0,0,1,0-1.767,15.421,15.421,0,0,0,0-21.8A1.249,1.249,0,0,1,2.129.362a17.936,17.936,0,0,1,0,25.333A1.236,1.236,0,0,1,1.246,26.062Z" transform="translate(30.538 6.971)" fill="#fff"/>
+        <path id="Vector-8" data-name="Vector" d="M6.121,26.062a1.236,1.236,0,0,1-.883-.367,17.936,17.936,0,0,1,0-25.333A1.249,1.249,0,0,1,7,2.129a15.421,15.421,0,0,0,0,21.8A1.257,1.257,0,0,1,7,25.7,1.236,1.236,0,0,1,6.121,26.062Z" transform="translate(2.096 6.971)" fill="#fff"/>
+        <path id="Vector-9" data-name="Vector" d="M6.756,3.439a18.213,18.213,0,0,1-5.917-1A1.255,1.255,0,1,1,1.672.072a15.591,15.591,0,0,0,5.1.85,15.491,15.491,0,0,0,5.083-.85,1.271,1.271,0,0,1,1.6.767,1.257,1.257,0,0,1-.767,1.6A17.951,17.951,0,0,1,6.756,3.439Z" transform="translate(13.244 34.411)" fill="#fff"/>
+        <path id="Vector-10" data-name="Vector" d="M12.256,3.417a1.211,1.211,0,0,1-.417-.067A15.067,15.067,0,0,0,6.756,2.5a15.565,15.565,0,0,0-5.083.85A1.255,1.255,0,1,1,.839.983,17.916,17.916,0,0,1,6.756,0a17.843,17.843,0,0,1,5.917.983,1.252,1.252,0,0,1-.417,2.433Z" transform="translate(13.244 2.15)" fill="#fff"/>
+        <path id="Vector-11" data-name="Vector" d="M0,6.673V3.89C0,.423,2.45-.993,5.45.74l2.417,1.4,2.417,1.4c3,1.733,3,4.567,0,6.3l-2.417,1.4L5.45,12.64C2.45,14.373,0,12.957,0,9.49Z" transform="translate(14.567 13.327)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
