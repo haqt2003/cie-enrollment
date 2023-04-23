@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url('/CIE/assets/img/header-bg.png');
+    background-image: url('../img/header-bg.png');
     height: 768px;
     width: 100%;
     background-repeat: no-repeat;
