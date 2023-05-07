@@ -18,7 +18,7 @@
         <header class="header">
             <div class="header-line">
                 <div class="grid">
-                    <div class="header__infor">
+                    <div class="header__infor tablet-margin">
                         <div class="header__infor-full">
                             <a href="https://cie.ptit.edu.vn/vi/trang-chu/" class="header__infor-full-child">
                                 <img src="./assets/font/svg/Component 1 – 3.svg" alt="">
@@ -30,15 +30,21 @@
                             </a>
                         </div>
                         <div class="header__infor-icon">
-                            <img src="./assets/img/Component 8 – 1.png" alt="" class="header__infor-icon-child">
-                            <img src="./assets/img/Component 6 – 1.png" alt="" class="header__infor-icon-child">
-                            <img src="./assets/img/Component 7 – 1.png" alt="" class="header__infor-icon-child">
+                            <a href="https://www.facebook.com/ptit.cie" target="_blank" rel="noopener noreferrer">
+                                <img src="./assets/img/Component 8 – 1.png" alt="" class="header__infor-icon-child">
+                            </a>
+                            <a href="https://www.youtube.com/c/CIEPTIT" target="_blank" rel="noopener noreferrer"> 
+                                <img src="./assets/img/Component 6 – 1.png" alt="" class="header__infor-icon-child">
+                            </a>
+                            <a href="https://www.instagram.com/cie.info/" target="_blank" rel="noopener noreferrer">
+                                <img src="./assets/img/Component 7 – 1.png" alt="" class="header__infor-icon-child">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="grid">
+            <div class="grid tablet-margin">
                 <img src="./assets/img/Component 23 – 3.png" alt="" class="header-logo">
                 <div class="header__home-page grid">
                     <div class="grid__row">
@@ -152,9 +158,9 @@
                 </div>
             </div>
         </header>
-        <div class="container">
+        <div class="container tablet-margin">
             <div class="container__navbar nunito">
-                <ul class="container__navbar-content grid">
+                <ul class="container__navbar-content grid tablet-margin">
                     <li class="container__navbar-content-item active">
                         <a href="" class="container__navbar-content-item-link">
                             Đăng kí xét tuyển
@@ -177,304 +183,315 @@
                 </ul>
             </div>
             <div class="container__form grid nunito">
-                <span class="container__form-heading">ĐĂNG KÝ XÉT TUYỂN</span>
                 <div class="container__form-part1">
-                    <div class="container__form-heading-item">
+                    <span class="container__form-name">ĐĂNG KÝ XÉT TUYỂN</span>
+                    <div class="container__form-heading">
                         <span>Thông tin đăng ký</span>
                         <span>*bắt buộc</span>
                     </div>
-                    <span class="container__form-accept">Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào chương trình Liên kết đào tạo Cử nhân như sau: (chọn phương thức xét tuyển)</span>
-                    <div class="container__form-program">
+                    <span class="container__form-desc">
+                        Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào chương trình Liên kết đào tạo Cử nhân như sau: (chọn phương thức xét tuyển)
+                    </span>
+                    <div class="container__form-part1-program-add">
                         <span>CHƯƠNG TRÌNH</span>
-                        <img src="./assets/font/svg/Icon feather-plus.png" alt="">
+                        <div class="container__form-part1-program-add-img">
+                            <img src="./assets/font/svg/Group 10304de.svg" alt="">
+                            <img src="./assets/font/svg/Group 10304.svg" alt="">
+                        </div>
                     </div>
                     <div class="container__form-input">
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="school" disabled selected hidden>* CÁC TRƯỜNG XÉT TUYỂN</option>
-                                <option value="latrobe">Đại học La Trobe, Úc</option>
-                                <option value="canberra">Đại học Canberra, Úc</option>
-                                <option value="bellevue">Đại học Bellevue, Mỹ</option>
-                                <option value="huddersfield">Đại học Huddersfield, Vương Quốc Anh</option>
-                                <option value="middlesex">Đại học Middlesex, Vương Quốc Anh</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="school" class="container__form-input-block-label"><span>*</span>CÁC TRƯỜNG XÉT TUYỂN</label>
+                            <span class="container__form-input-block-label-main">Đại học La Trobe, Úc</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Đại học La Trobe, Úc</li>
+                                <li class="container__form-input-block-list-item">Đại học Canberra, Úc</li>
+                                <li class="container__form-input-block-list-item">Đại học Bellevue, Mỹ</li>
+                                <li class="container__form-input-block-list-item">Đại học Huddersfield, Vương Quốc Anh</li>
+                                <li class="container__form-input-block-list-item">Đại học Middlesex, Vương Quốc Anh</li>
+                            </ul>
+                            <span class="container__form-input-block-del">Xóa</span>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="school" disabled selected hidden>* NGÀNH XÉT TUYỂN</option>
-                                <option value="latrobe">Đại học La Trobe, Úc</option>
-                                <option value="canberra">Đại học Canberra, Úc</option>
-                                <option value="bellevue">Đại học Bellevue, Mỹ</option>
-                                <option value="huddersfield">Đại học Huddersfield, Vương Quốc Anh</option>
-                                <option value="middlesex">Đại học Middlesex, Vương Quốc Anh</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="school" class="container__form-input-block-label"><span>*</span>NGÀNH XÉT TUYỂN</label>
+                            <span class="container__form-input-block-label-main">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+                                <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+                                <li class="container__form-input-block-list-item">Chương trình cử nhân An toàn thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+                                <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ kỹ thuật điện, điện tử 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+                            </ul>
+                            <span class="container__form-input-block-del">Xóa</span>
                         </div>
-                    </div>
-                    <div class="container__form-input-add">
-                        <span>
-                            <img src="./assets/font/svg/Group 10311.png" alt="">
+                        <div class="container__form-input-block-invisible">
+                            
+                        </div>
+                        <button class="container__form-input-block-add">
+                            <img src="./assets/font/svg/Group 10311.svg" alt="">
                             THÊM NGÀNH XÉT TUYỂN
-                        </span>
+                        </button>
                     </div>
                 </div>
                 <div class="container__form-part2">
-                    <div class="container__form-heading-item">
+                    <div class="container__form-heading">
                         <span>Thông tin hồ sơ</span>
                         <span>*bắt buộc</span>
                     </div>
                     <div class="container__form-input">
-                        <div class="container__form-input-item">
-                            <input type="text" class="container__form-input-item-select" placeholder="* HỌ VÀ TÊN">
+                        <div class="container__form-input-block">
+                            <label for="name" class="container__form-input-block-label"><span>*</span>HỌ VÀ TÊN</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <input type="text" class="container__form-input-block-enterText">
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* GIỚI TÍNH</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="school" class="container__form-input-block-label"><span>*</span>GIỚI TÍNH</label>
+                            <span class="container__form-input-block-label-main">Nam</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Nam</li>
+                                <li class="container__form-input-block-list-item">Nữ</li>
+                                <li class="container__form-input-block-list-item">Khác</li>
+                            </ul>
                         </div>
-                        <div class="container__form-input-item">
-                            <input type="text" class="container__form-input-item-select" placeholder="* NGÀY SINH (DD/MM/YYYY)">
+                        <div class="container__form-input-block">
+                            <label for="birth" class="container__form-input-block-label"><span>*</span>NGÀY SINH (DD/MM/YYYY)</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <input type="date" class="container__form-input-block-enterText">
                         </div>
-                        <div class="container__form-input-item flex">
-                              <select name="" class="container__form-input-item-select-min">
-                                    <option value="gender" disabled selected hidden>* DÂN TỘC</option>
-                                    <option value="male">Kinh</option>
-                                    <option value="male">Khác</option>
-                              </select>
-                              <select name="" class="container__form-input-item-select-min">
-                                <option value="gender" disabled selected hidden>* TÔN GIÁO</option>
-                                <option value="male">Không</option>
-                          </select>
+                        <div class="container__form-input-block-invisible">
+                            <div class="container__form-input-block">
+                                <label for="nation" class="container__form-input-block-label"><span>*</span>DÂN TỘC</label>
+                                <span class="container__form-input-block-label-main"></span>
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                                <input type="text" class="container__form-input-block-enterText">
+                            </div>
+                            <div class="container__form-input-block">
+                                <label for="religion" class="container__form-input-block-label"><span>*</span>TÔN GIÁO</label>
+                                <span class="container__form-input-block-label-main"></span>
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                                <input type="text" class="container__form-input-block-enterText">
+                            </div>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* NƠI SINH (CHỌN TỈNH/TP)</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="placeofbirth" class="container__form-input-block-label"><span>*</span>NƠI SINH (CHỌN TỈNH/TP)</label>
+                            <span class="container__form-input-block-label-main">Phú Thọ</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Nam</li>
+                                <li class="container__form-input-block-list-item">Nữ</li>
+                                <li class="container__form-input-block-list-item">Khác</li>
+                            </ul>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* NĂM TỐT NGHIỆP</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="graduationyear" class="container__form-input-block-label"><span>*</span>NĂM TỐT NGHIỆP</label>
+                            <span class="container__form-input-block-label-main">2022</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">1999</li>
+                                <li class="container__form-input-block-list-item">2000</li>
+                                <li class="container__form-input-block-list-item">2001</li>
+                                <li class="container__form-input-block-list-item">2002</li>
+                                <li class="container__form-input-block-list-item">2003</li>
+                                <li class="container__form-input-block-list-item">2004</li>
+                                <li class="container__form-input-block-list-item">2005</li>
+                                <li class="container__form-input-block-list-item">2006</li>
+                                <li class="container__form-input-block-list-item">2007</li>
+                                <li class="container__form-input-block-list-item">2008</li>
+                                <li class="container__form-input-block-list-item">2009</li>
+                                <li class="container__form-input-block-list-item">2010</li>
+                                <li class="container__form-input-block-list-item">2011</li>
+                                <li class="container__form-input-block-list-item">2012</li>
+                                <li class="container__form-input-block-list-item">2013</li>
+                                <li class="container__form-input-block-list-item">2014</li>
+                                <li class="container__form-input-block-list-item">2015</li>
+                                <li class="container__form-input-block-list-item">2016</li>
+                                <li class="container__form-input-block-list-item">2017</li>
+                                <li class="container__form-input-block-list-item">2018</li>
+                                <li class="container__form-input-block-list-item">2019</li>
+                                <li class="container__form-input-block-list-item">2020</li>
+                                <li class="container__form-input-block-list-item">2021</li>
+                                <li class="container__form-input-block-list-item">2022</li>
+                                <li class="container__form-input-block-list-item">2023</li>
+                            </ul>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* SĐT</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="callnumber" class="container__form-input-block-label"><span>*</span>SĐT</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <input type="number" class="container__form-input-block-enterText">
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* EMAIL</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="email" class="container__form-input-block-label"><span>*</span>EMAIL</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <input type="email" class="container__form-input-block-enterText">
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* TỈNH/TP HỌC THPT</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="province" class="container__form-input-block-label"><span>*</span>TỈNH/TP HỌC THPT</label>
+                            <span class="container__form-input-block-label-main">Phú Thọ</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Phú Thọ</li>
+                                <li class="container__form-input-block-list-item">Hà Nội</li>
+                                <li class="container__form-input-block-list-item">Nghệ An</li>
+                            </ul>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* TÊN TRƯỜNG THPT</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="highschool" class="container__form-input-block-label"><span>*</span>TÊN TRƯỜNG THPT</label>
+                            <span class="container__form-input-block-label-main">THPT Chuyên Hùng Vương</span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">Phú Thọ</li>
+                                <li class="container__form-input-block-list-item">Hà Nội</li>
+                                <li class="container__form-input-block-list-item">Nghệ An</li>
+                            </ul>
                         </div>
-                        <div class="container__form-input-item">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* SỐ CMND/CCCD</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-arrow">
+                        <div class="container__form-input-block">
+                            <label for="idcard" class="container__form-input-block-label"><span>*</span>SỐ CMND/CCCD</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            <input type="number" class="container__form-input-block-enterText">
                         </div>
-                        <div class="container__form-input-item flex">
-                            <select name="" class="container__form-input-item-select-min">
-                                  <option value="gender" disabled selected hidden>* NGÀY CẤP (DD/MM/YYYY)</option>
-                                  <option value="male">Kinh</option>
-                                  <option value="male">Khác</option>
-                            </select>
-                            <select name="" class="container__form-input-item-select-min">
-                              <option value="gender" disabled selected hidden>* NƠI CẤP</option>
-                              <option value="male">Không</option>
-                        </select>
-                      </div>
-                    </div>
-                    <span class="container__form-mark">Điểm trung bình chung 3 năm THPT: Khối A00, A01 hoặc D01</span>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading">CHỌN TỔ HỢP</span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select">
-                                <option value="gender" disabled selected hidden>* CHỌN TỔ HỢP XÉT TUYỂN</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                        </div>
-                    </div>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading"></span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* MÔN 1</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* MÔN 2</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                             
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* MÔN 3</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              
+                        <div class="container__form-input-block-invisible">
+                            <div class="container__form-input-block">
+                                <label for="idcarđate" class="container__form-input-block-label"><span>*</span>NGÀY CẤP (DD/MM/YYYY)</label>
+                                <span class="container__form-input-block-label-main"></span>
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                                <input type="date" class="container__form-input-block-enterText">
+                            </div>
+                            <div class="container__form-input-block">
+                                <label for="idcardplace" class="container__form-input-block-label"><span>*</span>NƠI CẤP</label>
+                                <span class="container__form-input-block-label-main"></span>
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                                <input type="text" class="container__form-input-block-enterText">
+                            </div>
                         </div>
                     </div>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading">NĂM LỚP 10</span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow1">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow2">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow3">
+                    <span class="container__form-desc">
+                        Điểm trung bình chung 3 năm THPT: Khối A00, A01 hoặc D01
+                    </span>
+                    <div class="container__form-input">
+                        <span class="container__form-input-combine">CHỌN TỔ HỢP</span>
+                        <div class="container__form-input-block w85 complexBox">
+                            <label for="school" class="container__form-input-block-label"><span>*</span>CHỌN TỔ HỢP XÉT TUYỂN</label>
+                            <span class="container__form-input-block-label-main"></span>
+                            <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+                            <ul class="container__form-input-block-list">
+                                <li class="container__form-input-block-list-item">A00</li>
+                                <li class="container__form-input-block-list-item">A01</li>
+                                <li class="container__form-input-block-list-item">D01</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading">NĂM LỚP 11</span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow1">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow2">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow3">
+                        <span class="container__form-input-combine"></span>
+                        <div class="container__form-input-block-invisible w85">
+                            <div class="container__form-input-block w31 blockAuto">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>MÔN 1</label>
+                                <span class="container__form-input-block-label-main"></span>
+                            </div>
+                            <div class="container__form-input-block w31 blockAuto">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>MÔN 2</label>
+                                <span class="container__form-input-block-label-main"></span>
+                            </div>
+                            <div class="container__form-input-block w31 blockAuto">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>MÔN 3</label>
+                                <span class="container__form-input-block-label-main"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading">NĂM LỚP 12</span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow1">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow2">
-                              <select name="" class="container__form-input-item-select-min3">
-                                <option value="gender" disabled selected hidden>* NHẬP ĐIỂM</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
-                              <img src="./assets/font/svg/Component 115 – 1.svg" alt="" class="container__form-input-item-select-min3-arrow3">
+                        <span class="container__form-input-combine">NĂM LỚP 10</span>
+                        <div class="container__form-input-block-invisible w85">
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="container__form-input-grade-mark">
-                        <span class="container__form-input-grade-mark-heading">ĐIỂM TB</span>
-                        <div class="container__form-input-grade-mark-input">
-                            <select name="" class="container__form-input-item-select bg--gray">
-                                <option value="gender" disabled selected hidden>* ĐIỂM TRUNG BÌNH CỘNG 3 MÔN</option>
-                                <option value="male">Nam</option>
-                                <option value="female">Nữ</option>
-                                <option value="other">Khác</option>
-                              </select>
+                        <span class="container__form-input-combine">NĂM LỚP 11</span>
+                        <div class="container__form-input-block-invisible w85">
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                        </div>
+                        <span class="container__form-input-combine">NĂM LỚP 12</span>
+                        <div class="container__form-input-block-invisible w85">
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                            <div class="container__form-input-block w31 mark">
+                                <label for="school" class="container__form-input-block-label"><span>*</span>NHẬP ĐIỂM</label>
+                                <input type="number" class="container__form-input-block-enterText">
+                                <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+                            </div>
+                        </div>
+                        <span class="container__form-input-combine">ĐIỂM TB</span>
+                        <div class="container__form-input-block w85 mt20 blockAuto markAverage">
+                            <label for="school" class="container__form-input-block-label"><span>*</span>ĐIỂM TRUNG BÌNH CỘNG 3 MÔN:</label>
+                            <span class="container__form-input-block-label-main"></span>
                         </div>
                     </div>
                 </div>
                 <div class="container__form-part3">
-                    <div class="container__form-heading-item">
+                    <div class="container__form-heading">
                         <span>Hồ sơ dự tuyển</span>
-                        <input type="file" name="file" id="file" class="container__form-heading-item-inputfile" />
-                        <label for="file" class="container__form-heading-item-label">Tải lên Hồ sơ dự tuyển
-                            <img src="./assets/font/svg/Group 10316.png" alt="">
+                        <input type="file" name="file" id="file" class="container__form-upload">
+                        <label for="file" class="container__form-upload-label">
+                                Tải lên Hồ sơ dự tuyển
+                            <img src="./assets/font/svg/Group 10316.svg" alt="">
                         </label>
                     </div>
-                    <div class="container__form-required">
-                        <span class="container__form-required-item">Yêu cầu nộp Phiếu đăng ký dự tuyển trước, các giấy tờ khác có thể nộp sau</span>
-                        <span class="container__form-required-item"></span>
-                        <span class="container__form-required-item">1. Phiếu đăng ký dự tuyển <a href="">Tải về tại đây <img src="./assets/font/svg/Group 31.1.svg" alt=""></a></span>
-                        <span class="container__form-required-item">4. Bản sao hợp lệ chứng minh nhân dân hoặc hộ chiếu còn thời hạn sử dụng</span>
-                        <span class="container__form-required-item">2. 2 ảnh 3×4 (chụp trong 3 tháng gần nhất)</span>
-                        <span class="container__form-required-item">5. Sơ yếu lý lịch (theo mẫu) có xác nhận của địa phương</span>
-                        <span class="container__form-required-item">3. Bản sao hợp lệ bằng tốt nghiệp THPT và học bạ THPT (thí sinh có thể <br> nộp Chứng nhận tốt nghiệp tạm thời nếu chưa nhận được bằng)</span>
-                        <span class="container__form-required-item">6. Bản sao chứng chỉ tiếng Anh (có bản gốc đối chiếu), nếu có.</span>
-                        <span class="container__form-required-item"></span>
-                        <span class="container__form-required-item">7. Giấy khám sức khỏe có giá trị trong vòng 6 tháng (có thể bổ sung sau)</span>
-                        <input type="submit" class="container__form-required-submit">
-                        <label for="submit" class="container__form-required-submit-labbel">Đăng ký</label>
-                    </div>
+                    <span class="container__form-require-heading">
+                        Yêu cầu nộp Phiếu đăng ký dự tuyển trước, các giấy tờ khác có thể nộp sau
+                    </span>
+                    <ul class="container__form-require-list">
+                        <li class="container__form-require-item">1. Phiếu đăng kí dự tuyển <a href="">Tải về tại đây<img src="./assets/font/svg/Group 31.1.svg" alt=""></a></li>
+                        <li class="container__form-require-item">4. Bản sao hợp lệ chứng minh nhân dân hoặc hộ chiếu còn thời hạn sử dụng</li>
+                        <li class="container__form-require-item">2. 2 ảnh 3×4 (chụp trong 3 tháng gần nhất)</li>
+                        <li class="container__form-require-item">5. Sơ yếu lý lịch (theo mẫu) có xác nhận của địa phương</li>
+                        <li class="container__form-require-item">3. Bản sao hợp lệ bằng tốt nghiệp THPT và học bạ THPT (thí sinh có thể<br> nộp Chứng nhận tốt nghiệp tạm thời nếu chưa nhận được bằng)</li>
+                        <li class="container__form-require-item">6. Bản sao chứng chỉ tiếng Anh (có bản gốc đối chiếu), nếu có.</li>
+                        <li class="container__form-require-item"></li>
+                        <li class="container__form-require-item">7. Giấy khám sức khỏe có giá trị trong vòng 6 tháng (có thể bổ sung sau)</li>
+                    </ul>
+                    <button class="container__form-submit-button" type="submit">Đăng ký</button>
                 </div>
             </div>
             <div class="container__relate grid nunito">
@@ -500,7 +517,7 @@
             </div>
         </div>
         <footer class="footer nunito">
-            <div class="footer-content grid">
+            <div class="footer-content grid tablet-margin">
                 <div class="grid__row ">
                     <ul class="footer-content__infor grid__col-6">
                         <li>
@@ -576,13 +593,19 @@
                     <span class="footer-content__contact-copyright">
                         Copyright © 2020 CIE PTIT. All rights reserved.
                     </span>
-                    <div class="footer-content__contact-logo">
-                        <img src="./assets/img/Component 8 – 1.png" alt="" class="header__infor-icon-child">
-                        <img src="./assets/img/Component 6 – 1.png" alt="" class="header__infor-icon-child">
-                        <img src="./assets/img/Component 7 – 1.png" alt="" class="header__infor-icon-child">
+                    <div class="footer-content__contact-logo tablet-margin">
+                        <a href="https://www.facebook.com/ptit.cie" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/Component 8 – 1.png" alt="" class="header__infor-icon-child">
+                        </a>
+                        <a href="https://www.youtube.com/c/CIEPTIT" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/Component 6 – 1.png" alt="" class="header__infor-icon-child">
+                        </a>
+                        <a href="https://www.instagram.com/cie.info/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/Component 7 – 1.png" alt="" class="header__infor-icon-child">
+                        </a>      
                     </div>
                 </div>
-                <div class="footer__contact-form grid">
+                <div class="footer__contact-form grid ">
                     <div class="footer__contact-form-heading">
                         <span class="prata">
                             Đăng ký nhận tư vấn
@@ -592,12 +615,13 @@
                         </span>
                     </div>
                     <div class="footer__contact-form-callnum nunito">
-                        <input type="text" placeholder="Số điện thoại">
+                        <input type="number" placeholder="Số điện thoại">
                         <input type="submit" value="Đăng ký">
                     </div>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="./assets/script.js"></script>
 </body>
 </html>    
