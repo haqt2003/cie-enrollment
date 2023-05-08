@@ -861,7 +861,17 @@ input[type=number]::-webkit-inner-spin-button {
     position: absolute;
     top: calc(100% + 7px);
     right: 0;
-    display: none;
+    display: block;
+}
+
+.container__form-input-block-del-childBlock {
+    font-size: 1.6rem;
+    color: #868686;
+    padding: 5px 20px;
+    position: absolute;
+    top: calc(100% + 7px);
+    right: 0;
+    display: block;
 }
 
 .container__form-input-block-del.active {
