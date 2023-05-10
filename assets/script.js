@@ -78,14 +78,27 @@ isValid = true;
 //     form.innerHTML = htmls;
 // }
 
-const inputItems = $$('.container__form-input-block');
+// Xử lí chuyển tab
+ const tabs = $$('.container__navbar-content-item');
+ const pages = $$('.page');
+
+ tabs.forEach(function(tab, index) {
+    tab.onclick = function() {
+        $('.container__navbar-content-item.active').classList.remove('active');
+        this.classList.add('active')
+        $('.page.active').classList.remove('active');
+        pages[index].classList.add('active');
+    }
+ })
 
 // Xử lý nhập thông tin
+const inputItems = $$('.container__form-input-block');
+
 inputItems.forEach(function(inputItem, index) {
-    const listInput = inputItem.querySelector('ul');
     const textInput = inputItem.querySelector('input');
-    const mainText = inputItem.querySelector('.container__form-input-block-label-main')
+    const mainText = inputItem.querySelector('.container__form-input-block-label-main');
     inputItem.onclick = function() {
+        const listInput = inputItem.querySelector('ul');
         if(!listInput) {
             this.classList.add('active');
             if(textInput) {
@@ -103,14 +116,20 @@ inputItems.forEach(function(inputItem, index) {
             }
         }
         else {
-            listInput.classList.toggle('active'); 
-            const listItems = inputItem.querySelectorAll('li');
-            listItems.forEach(function(listItem) {
-                listItem.onclick = function() {
-                    mainText.innerText = listItem.innerText;
-                    inputItem.classList.add('active');
-                }
-            });
+            const listCheck = $('.container__form-input-block-list.active');
+            if(!listCheck) {
+                listInput.classList.toggle('active'); 
+                const listItems = inputItem.querySelectorAll('li');
+                listItems.forEach(function(listItem) {
+                    listItem.onclick = function() {
+                        mainText.innerText = listItem.innerText;
+                        inputItem.classList.add('active');
+                    }
+                });
+            }
+            else {
+                listCheck.classList.remove('active');
+            }
         }
     }
 })
@@ -178,11 +197,12 @@ markBlocks.forEach(function(markBlock) {
                 cnt++;
             }
         });
-        markAverage.querySelector('.container__form-input-block-label-main').innerText = (sum/cnt).toPrecision(2);
-        markAverage.classList.add('active');
+        if(cnt === 9) {
+            markAverage.querySelector('.container__form-input-block-label-main').innerText = (sum/cnt).toPrecision(2);
+            markAverage.classList.add('active');
+        }
     }
 })
-
 
 // Check đủ thông tin khi submit
 const btnSubmit = $('.container__form-submit-button');

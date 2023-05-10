@@ -111,3 +111,11 @@ input {
     background-color: #F2F2F2 !important; 
     pointer-events:none;
 }
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
