@@ -1,104 +1,82 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-// Mảng chứa các chương trình từ chương trình thứ 2
-var arr = [];
+isValid = true;
 
-// 1 khối chương trình được tạo sẵn
-const program = `<div class="container__form-input">
-<div class="container__form-input-block">
-    <label for="school" class="container__form-input-block-label"><span>*</span>CÁC TRƯỜNG XÉT TUYỂN</label>
-    <span class="container__form-input-block-label-main">Đại học La Trobe, Úc</span>
-    <img src="./assets/font/svg/Component 115 – 1.png" alt="">
-    <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
-    <ul class="container__form-input-block-list">
-        <li class="container__form-input-block-list-item">Đại học La Trobe, Úc</li>
-        <li class="container__form-input-block-list-item">Đại học Canberra, Úc</li>
-        <li class="container__form-input-block-list-item">Đại học Bellevue, Mỹ</li>
-        <li class="container__form-input-block-list-item">Đại học Huddersfield, Vương Quốc Anh</li>
-        <li class="container__form-input-block-list-item">Đại học Middlesex, Vương Quốc Anh</li>
-    </ul>
-    <span class="container__form-input-block-del">Xóa</span>
-</div>
-<div class="container__form-input-block">
-    <label for="school" class="container__form-input-block-label"><span>*</span>NGÀNH XÉT TUYỂN</label>
-    <span class="container__form-input-block-label-main">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</span>
-    <img src="./assets/font/svg/Component 115 – 1.png" alt="">
-    <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
-    <ul class="container__form-input-block-list">
-        <li class="container__form-input-block-list-item">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
-        <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
-        <li class="container__form-input-block-list-item">Chương trình cử nhân An toàn thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
-        <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ kỹ thuật điện, điện tử 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
-    </ul>
-    <span class="container__form-input-block-del-childBlock">Xóa</span>
-</div>
-<div class="container__form-input-block-invisible">
+// // 1 khối chương trình được tạo sẵn
+// const program = `<div class="container__form-input">
+// <div class="container__form-input-block">
+//     <label for="school" class="container__form-input-block-label"><span>*</span>CÁC TRƯỜNG XÉT TUYỂN</label>
+//     <span class="container__form-input-block-label-main">Đại học La Trobe, Úc</span>
+//     <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+//     <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+//     <ul class="container__form-input-block-list">
+//         <li class="container__form-input-block-list-item">Đại học La Trobe, Úc</li>
+//         <li class="container__form-input-block-list-item">Đại học Canberra, Úc</li>
+//         <li class="container__form-input-block-list-item">Đại học Bellevue, Mỹ</li>
+//         <li class="container__form-input-block-list-item">Đại học Huddersfield, Vương Quốc Anh</li>
+//         <li class="container__form-input-block-list-item">Đại học Middlesex, Vương Quốc Anh</li>
+//     </ul>
+//     <span class="container__form-input-block-del">Xóa</span>
+// </div>
+// <div class="container__form-input-block">
+//     <label for="school" class="container__form-input-block-label"><span>*</span>NGÀNH XÉT TUYỂN</label>
+//     <span class="container__form-input-block-label-main">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</span>
+//     <img src="./assets/font/svg/Component 115 – 1.png" alt="">
+//     <span class="container__form-input-block-requireMessage">Trường bắt buộc</span>
+//     <ul class="container__form-input-block-list">
+//         <li class="container__form-input-block-list-item">Chương trình cử nhân Đa phương tiện 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+//         <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+//         <li class="container__form-input-block-list-item">Chương trình cử nhân An toàn thông tin 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+//         <li class="container__form-input-block-list-item">Chương trình cử nhân Công nghệ kỹ thuật điện, điện tử 2+2 với Đại học Huddersfield, Vương Quốc Anh</li>
+//     </ul>
+//     <span class="container__form-input-block-del-childBlock">Xóa</span>
+// </div>
+// <div class="container__form-input-block-invisible">
     
-</div>
-<button class="container__form-input-block-add">
-    <img src="./assets/font/svg/Group 10311.svg" alt="">
-    THÊM NGÀNH XÉT TUYỂN
-</button>
-</div>`;
+// </div>
+// <button class="container__form-input-block-add">
+//     <img src="./assets/font/svg/Group 10311.svg" alt="">
+//     THÊM NGÀNH XÉT TUYỂN
+// </button>
+// </div>`;
 
-// Heading của form
-const heading = `<span class="container__form-name">ĐĂNG KÝ XÉT TUYỂN</span>
-<div class="container__form-heading">
-    <span>Thông tin đăng ký</span>
-    <span>*bắt buộc</span>
-</div>
-<span class="container__form-desc">
-    Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào chương trình Liên kết đào tạo Cử nhân như sau: (chọn phương thức xét tuyển)
-</span>
-<div class="container__form-part1-program-add">
-    <span>CHƯƠNG TRÌNH</span>
-    <div class="container__form-part1-program-add-img">
-        <img src="./assets/font/svg/Group 10304de.svg" alt="">
-        <img src="./assets/font/svg/Group 10304.svg" alt="">
-    </div>
-</div>`;
+// // Mảng chứa các chương trình từ chương trình thứ 2
+// var arr = [program];
 
-// Select nút add
-let addBtn = $('.container__form-part1-program-add-img');
+// // Heading của form
+// const heading = `<span class="container__form-name">ĐĂNG KÝ XÉT TUYỂN</span>
+// <div class="container__form-heading">
+//     <span>Thông tin đăng ký</span>
+//     <span>*bắt buộc</span>
+// </div>
+// <span class="container__form-desc">
+//     Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào chương trình Liên kết đào tạo Cử nhân như sau: (chọn phương thức xét tuyển)
+// </span>
+// <div class="container__form-part1-program-add">
+//     <span>CHƯƠNG TRÌNH</span>
+//     <div class="container__form-part1-program-add-img">
+//         <img src="./assets/font/svg/Group 10304de.svg" alt="">
+//         <img src="./assets/font/svg/Group 10304.svg" alt="">
+//     </div>
+// </div>`;
 
-// Lắng nghe sự kiên click vào nút add
-addBtn.onclick = function() {
-    arr.push(program); //Thêm chương trình vào mảng
+// let addBtn = $('.container__form-part1-program-add-img');
 
-    const program_1 = $('.container__form-input').innerHTML; //Select chương trình đầu
+// addBtn.onclick = function() {
+//     arr.push(program);
+//     console.log(arr)
+//     render();
+// }
 
-    // Lặp qua từng phần tử của mảng
-    let htmls = ""; 
-    arr.forEach(function(item) {
-        htmls += item;
-    })
-
-    // Thêm tất cả các thành phần vào form để render lại view
-    const all = heading + program_1 + htmls;
-    let form = $('.container__form-part1');
-    form.innerHTML = all;
-
-    // Select lại nút add
-    addBtn = $('.container__form-part1-program-add-img');
-}
-
-const deleteBtns = $$('.container__form-input-block-del');
-
-// deleteBtns.forEach(function(deleteBtn, index) {
-//     deleteBtn.onclick = function() {
-//         console.log(1);
-//         arr.splice(index, 1);
-//         const program_1 = $('.container__form-input').innerHTML;
-//         let htmls = "";
-//         arr.forEach(function(item) {
-//             htmls += item;
-//         })
-//         const all = heading + program_1 + htmls;
-//         let form = $('.container__form-part1');
-//         form.innerHTML = all;
-//     }
-// })
+// function render() {
+//     const form = $('.container__form-input-all');
+//     let htmls = "";
+//     arr.forEach(function(item) {
+//         htmls += item;
+//     })
+//     form.innerHTML = htmls;
+// }
 
 const inputItems = $$('.container__form-input-block');
 
@@ -204,6 +182,32 @@ markBlocks.forEach(function(markBlock) {
         markAverage.classList.add('active');
     }
 })
+
+
+// Check đủ thông tin khi submit
+const btnSubmit = $('.container__form-submit-button');
+
+btnSubmit.onclick = function() {
+    const valueChecks = $$('.container__form-input-block');
+    valueChecks.forEach(function(valueCheck) {
+        const valInput = valueCheck.querySelector('.container__form-input-block-enterText');
+        const valSelect = valueCheck.querySelector('.container__form-input-block-label-main'); 
+        const selectList = valueCheck.querySelector('ul');
+        // console.log(typeof valSelect.innerText)
+        if(valInput !== null) {
+            if(!valInput.value) {
+                valueCheck.classList.add('required');
+                isValid = false;
+            }
+        }
+        else if(valSelect) {
+            if(valSelect.childNodes.length === 0) {
+                valueCheck.classList.add('required');
+                isValid = false;
+            }
+        }
+    })
+}
 
 
 
