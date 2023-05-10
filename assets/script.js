@@ -100,6 +100,10 @@ inputItems.forEach(function(inputItem, index) {
     inputItem.onclick = function() {
         const listInput = inputItem.querySelector('ul');
         if(!listInput) {
+            const listCheck = $('.container__form-input-block-list.active');
+            if(listCheck) {
+                listCheck.classList.remove('active');
+            }
             this.classList.add('active');
             if(textInput) {
                 textInput.onblur = function() {
