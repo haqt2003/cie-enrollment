@@ -1,0 +1,20 @@
+<svg id="Component_122_3" data-name="Component 122 – 3" xmlns="http://www.w3.org/2000/svg" width="1032" height="51" viewBox="0 0 1032 51">
+  <path id="Path_1" data-name="Path 1" d="M191,847H1192.875" transform="translate(-183 -797)" fill="none" stroke="#fff" stroke-width="1" opacity="0.182"/>
+  <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(264)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="240" height="44" fill="rgba(255,255,255,0)"/>
+    <text id="Điều_kiện_xét_tuyển" data-name="Điều kiện xét tuyển" transform="translate(120 27)" fill="#fff" font-size="16" font-family="Nunito-Regular, Nunito" opacity="0.797"><tspan x="-68" y="0">Điều kiện xét tuyển</tspan></text>
+  </g>
+  <g id="Component_5_3" data-name="Component 5 – 3" transform="translate(528)">
+    <rect id="Rectangle_12-2" data-name="Rectangle 12" width="240" height="44" fill="rgba(255,255,255,0)"/>
+    <text id="Hồ_sơ_và_cách_đăng_ký" data-name="Hồ sơ và cách đăng ký" transform="translate(120 27)" fill="#fff" font-size="16" font-family="Nunito-Regular, Nunito" opacity="0.797"><tspan x="-79" y="0">Hồ sơ và cách đăng ký</tspan></text>
+  </g>
+  <g id="Component_5_4" data-name="Component 5 – 4">
+    <rect id="Rectangle_12-3" data-name="Rectangle 12" width="240" height="44" fill="rgba(255,255,255,0)"/>
+    <text id="Đăng_ký_xét_tuyển" data-name="Đăng ký xét tuyển" transform="translate(120 27)" fill="#fff" font-size="16" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="-66" y="0">Đăng ký xét tuyển</tspan></text>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="198" height="2" transform="translate(21 49)" fill="#fff"/>
+  </g>
+  <g id="Component_5_5" data-name="Component 5 – 5" transform="translate(792)">
+    <rect id="Rectangle_12-4" data-name="Rectangle 12" width="240" height="44" fill="rgba(255,255,255,0)"/>
+    <text id="Khám_phá_CIE" data-name="Khám phá CIE" transform="translate(120 27)" fill="#fff" font-size="16" font-family="Nunito-Regular, Nunito" opacity="0.797"><tspan x="-50" y="0">Khám phá CIE</tspan></text>
+  </g>
+</svg>

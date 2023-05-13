@@ -1,0 +1,8 @@
+<svg id="task-square" xmlns="http://www.w3.org/2000/svg" width="70.425" height="70.425" viewBox="0 0 70.425 70.425">
+  <path id="Vector" d="M0,0H15.405" transform="translate(36.298 26.057)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-2" data-name="Vector" d="M0,4.4,2.2,6.6,8.8,0" transform="translate(18.721 21.656)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H15.405" transform="translate(36.298 46.598)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-4" data-name="Vector" d="M0,4.4,2.2,6.6,8.8,0" transform="translate(18.721 42.196)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-5" data-name="Vector" d="M20.541,58.687H38.147c14.672,0,20.541-5.869,20.541-20.541V20.541C58.687,5.869,52.819,0,38.147,0H20.541C5.869,0,0,5.869,0,20.541V38.147C0,52.819,5.869,58.687,20.541,58.687Z" transform="translate(5.869 5.869)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Vector-6" data-name="Vector" d="M0,0H70.425V70.425H0Z" fill="none" opacity="0"/>
+</svg>

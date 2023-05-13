@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="48" viewBox="0 0 556 48">
+  <g id="Group_10312" data-name="Group 10312" transform="translate(-699 -1250)">
+    <g id="Rectangle_150" data-name="Rectangle 150" transform="translate(699 1250)" fill="#fff" stroke="#b5b5b5" stroke-width="1">
+      <rect width="556" height="48" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="555" height="47" rx="3.5" fill="none"/>
+    </g>
+    <g id="Group_10313" data-name="Group 10313" transform="translate(861.055 1262)">
+      <text id="Thêm_ngành_xét_tuyển" data-name="Thêm ngành xét tuyển" transform="translate(35.945 17)" fill="#000719" font-size="16" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">THÊM NGÀNH XÉT TUYỂN</tspan></text>
+      <g id="Group_10311" data-name="Group 10311">
+        <rect id="Rectangle_153" data-name="Rectangle 153" width="24" height="24" transform="translate(-0.055)" fill="rgba(255,255,255,0)"/>
+        <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(3 3)">
+          <path id="Path_745" data-name="Path 745" d="M18,7.5v18" transform="translate(-9 -7.5)" fill="none" stroke="#000719" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_746" data-name="Path 746" d="M7.5,18h18" transform="translate(-7.5 -9)" fill="none" stroke="#000719" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

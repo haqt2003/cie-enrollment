@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.425" height="70.425" viewBox="0 0 70.425 70.425">
+  <g id="archive-book" transform="translate(0 0)">
+    <path id="Vector" d="M52.819,14.672V44.016c0,8.8-4.4,14.672-14.672,14.672H14.672C4.4,58.687,0,52.819,0,44.016V14.672C0,5.869,4.4,0,14.672,0H38.147C48.417,0,52.819,5.869,52.819,14.672Z" transform="translate(8.803 5.869)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Vector-2" data-name="Vector" d="M20.541,0V23.064a1.472,1.472,0,0,1-2.465,1.086L11.268,17.87a1.455,1.455,0,0,0-2,0L2.465,24.15A1.472,1.472,0,0,1,0,23.064V0Z" transform="translate(24.942 5.869)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H12.471" transform="translate(38.88 41.081)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H24.942" transform="translate(26.409 52.819)" fill="none" stroke="#4285f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H70.425V70.425H0Z" transform="translate(70.425 70.425) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>
