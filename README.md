@@ -1,3 +1,3 @@
 # cie-enrollment
 
-Only HTML, CSS and Javascripts
+Only HTML, CSS and JavaScript
